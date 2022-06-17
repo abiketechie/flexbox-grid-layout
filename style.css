@@ -1,0 +1,117 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    width: 1440px;
+    height: 100%;
+    Font-size: 15px;
+    font-family: Poppins;
+}
+
+.container {
+    width: 50%;
+    margin: 150px auto;    
+}
+
+.r-box {
+    background-color: hsl(0, 100%, 74%);
+    display: flex; 
+    justify-content: center;
+    background-image:url(img/bg-intro-desktop.png) ;
+    align-items: center;
+    margin: auto; 
+    padding: 60px;   
+}
+
+.r-right {
+   color: #fff; 
+   width: 80%;
+   padding: 20px;
+ }
+
+ .r-right p {
+     font-size: 8px;
+     color: #fff;
+     background-color:  hsl(248, 32%, 49%);
+     padding: 10px;
+     border-radius: 6px;
+     margin-bottom: 10px;
+     text-align: center;
+     
+ }
+
+ .r-row p {
+     font-size: 6px;
+     color: hsl(246, 25%, 77%);
+     background-color: #fff;
+ }
+
+ .r-right span {
+     color: hsl(246, 25%, 77%);
+ }
+
+ .r-row span {
+     color: hsl(0, 100%, 74%);
+ }
+ 
+ 
+ .r-left {
+     
+     color: white;
+        
+ }
+ 
+ .r-left p {
+     font-size: 8px;
+     color: #fff;
+ }
+
+ ::placeholder {
+     color: hsl(249, 10%, 26%);
+     font-size: 8px;
+     text-align: left;
+ }
+
+ .r-row {
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 8px;
+     margin-bottom: 2rem;
+     justify-content: space-between;    
+ }
+
+ .r-input {
+    margin-bottom: 8px;
+ }
+
+ input{
+     padding: 5px 30px;
+   
+ }
+
+ .submit {
+     background-color: hsl(154, 59%, 51%);
+     padding: 8px 40px;
+     font-size: 9px;
+     color: #fff;
+     text-align: center;
+     border: none;
+     border-radius: 5px;
+     width: 100%;
+ }
+
+ @media screen and (max-width: 1000px) {
+    .r-box{
+        width: 50%;
+        float: right;
+        
+    } 
+      
+}
+ 
+ 
+ 
